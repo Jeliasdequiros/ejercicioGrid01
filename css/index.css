@@ -2,3 +2,112 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+
+/* Haciendo grid en la parte del Nav */
+/* estamos dando ordenes a los padres */
+
+
+
+
+    
+
+header{
+    display: grid;
+    background-color: black;
+    width: 100vmax;
+    
+}
+
+nav{
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 80px;
+    display: grid;
+    
+    
+}
+h6{
+    grid-column: 2/3;
+    font-size: 24px;
+    align-self: center;
+    color: #ffffff ;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.proyectos{
+    grid-column: 11/13;
+    align-self: center;
+    font-size: 1rem;
+}
+
+.contactar{
+    grid-column: 13/15;
+    align-self: center;
+    font-size: 1rem;
+}
+.blog{
+    grid-column: 15/16;
+    align-self: center;
+    font-size: 1rem;
+}
+/* empezamos el main */
+
+
+main{
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: auto;
+    column-gap: 10px;
+    display: grid;
+}
+
+.bannerCentral{
+    grid-column: 1/16;
+    width: 100vmax;
+}
+
+.descripcionH3{
+    grid-column: 6/13;
+    text-align: center; 
+  
+
+    
+}
+
+.mainFotoIzq{
+    grid-column: 2/4;
+ 
+    align-self: center;
+}
+.mainFotoCentral{
+    grid-column: 6/8 ;
+    
+    align-self: center;
+}
+.mainfotoDerecha{
+    grid-column: 11/13;
+    
+    align-self: center;
+}
+
+footer{
+    grid-template-columns: repeat(16, 1fr);
+   
+    column-gap: 10px;
+    display: grid;
+    background-color: black;
+    width: 100vmax;
+    
+
+}
+
+h4{
+    grid-column: 5/11;
+    align-self: center;
+    text-align: center;
+    color: #ffffff;
+
+}
